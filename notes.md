@@ -11,3 +11,18 @@ Describe how data is surfaced to the user
 
 Understand the big picture
 Articulate how the app intializes and connects modules
+
+
+celebrityList.js
+10-14 celebrity to star updates
+
+Kids.js
+9 comma is child.name on string
+
+Pairings.js
+1 removed react line that was suppposed to import Children
+
+7-18 update the variable celrity as it is double use will create a problem upon attempts to return it. 
+
+main.js
+21 add ${Pairings()} in order to call the function

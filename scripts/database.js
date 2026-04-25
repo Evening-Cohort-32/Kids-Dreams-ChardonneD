@@ -32,4 +32,3 @@ export const getChildren = () => {
 export const getCelebrities = () => {
     return structuredClone(database.celebrities);
 };
-

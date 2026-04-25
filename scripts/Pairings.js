@@ -1,4 +1,3 @@
-import { Children } from "react";
 import { getChildren } from "./database.js";
 import { getCelebrities } from "./database.js";
 
@@ -6,16 +5,16 @@ const kids = getChildren()
 const celebrities = getCelebrities()
 
 const findCelebrityMatch = (kidObject, celebrityArray) => {
-    let celebrity = null
+    let celebrityMatch = null
 
     for (const celebrity of celebrityArray) {
         if (celebrity.id === kidObject.celebrityId) {
-            celebrity = celebrity
+            celebrityMatch = celebrity
             break
         }
     }
 
-    return celebrity
+    return celebrityMatch
 };
 
 export const Pairings = () => {

@@ -36,9 +36,12 @@ Before you click the "Complete Assessment" button on the Learning Platform, add 
 
 1. When a child is clicked on in the browser, which module contains the code that will execute on that event happening? Can you explain the algorithm of that logic?
    > Your answer here
+
 2. In the **Pairings** module, why must the `findCelebrityMatch()` function be invoked inside the `for..of` loop that iterates the kids array?
    > Your answer here
+   
 3. In the **CelebrityList** module, can you describe how the name of the sport that the celebrity plays can be displayed in the window alert text?
    > Your answer here
+
 4. Can you describe, in detail, the algorithm that is in the `main` module?
    > Your answer here

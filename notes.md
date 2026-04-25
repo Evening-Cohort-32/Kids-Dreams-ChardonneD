@@ -26,3 +26,6 @@ Pairings.js
 
 main.js
 21 add ${Pairings()} in order to call the function
+
+Almost forgot each click event listener 
+important to remember we are not just rendering data, we are providing a story of data most times. Complete sentences. 

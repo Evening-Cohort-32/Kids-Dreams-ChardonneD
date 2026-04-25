@@ -1,6 +1,6 @@
 import { Pairings } from "./Pairings.js";
 import { Celebrities } from "./CelebrityList.js";
-import { Kids } from "./Kids.js";
+import { Kids } from "./KidsList.js";
 
 const mainContainer = document.querySelector("#container")
 
@@ -25,3 +25,12 @@ const applicationHTML = `
 
 mainContainer.innerHTML = applicationHTML
 
+mainContainer.addEventListener("click", (event) => {
+    if (event.target.dataset.type === "child") {
+        window.alert(`${event.target.dataset.name}'s wish is ${event.target.dataset.wish}`)
+    }
+
+    if (event.target.dataset.type === "celebrity") {
+        window.alert(event.target.dataset.sport)
+    }
+})

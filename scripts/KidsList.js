@@ -5,8 +5,8 @@ const children = getChildren()
 export const Kids = () => {
     let html = "<ol>"
 
-    for (const child of children) {
-        html += `<li data-id="${child.id}" data-type="child" data-wish="${child.wish}">${child.name}</li>`
+    for (const kid of children) {
+        html += `<li data-id="${kid.id}" data-type="child" data-name="${kid.name}" data-wish="${kid.wish}">${kid.name}</li>`
     }
 
     html += "</ol>"

@@ -29,3 +29,4 @@ main.js
 
 Almost forgot each click event listener 
 important to remember we are not just rendering data, we are providing a story of data most times. Complete sentences. 
+On line 9 - we found the importance of data type identification or your results will be undefined. 

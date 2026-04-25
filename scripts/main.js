@@ -31,6 +31,6 @@ mainContainer.addEventListener("click", (event) => {
     }
 
     if (event.target.dataset.type === "celebrity") {
-        window.alert(event.target.dataset.sport)
+        window.alert(`${event.target.dataset.name} is a ${event.target.dataset.sport} star!`)
     }
 })

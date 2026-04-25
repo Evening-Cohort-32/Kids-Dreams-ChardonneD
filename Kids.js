@@ -1,4 +1,4 @@
-import { getChildren } from "./database.js"
+import { getChildren } from "./scripts/database.js"
 
 const children = getChildren()
 

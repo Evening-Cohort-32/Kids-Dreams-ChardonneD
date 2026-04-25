@@ -9,6 +9,7 @@ export const Celebrities = () => {
         html += `<li 
                     data-id="${star.id}" 
                     data-type="celebrity"
+                    data-name="${star.name}"
                     data-sport="${star.sport}"
                     id="star--${star.id}">
                     ${star.name}
@@ -18,3 +19,4 @@ export const Celebrities = () => {
     html += "</ol>"
     return html
 }
+
